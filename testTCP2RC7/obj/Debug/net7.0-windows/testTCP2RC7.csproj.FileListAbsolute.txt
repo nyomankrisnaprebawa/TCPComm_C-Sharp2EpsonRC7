@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\bin\Debug\net7.0-windows\testTCP2RC7.exe
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\bin\Debug\net7.0-windows\testTCP2RC7.deps.json
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\bin\Debug\net7.0-windows\testTCP2RC7.runtimeconfig.json
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\bin\Debug\net7.0-windows\testTCP2RC7.dll
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\bin\Debug\net7.0-windows\testTCP2RC7.pdb
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\testTCP2RC7.Form1.resources
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\testTCP2RC7.csproj.GenerateResource.cache
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\testTCP2RC7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\testTCP2RC7.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\testTCP2RC7.AssemblyInfo.cs
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\testTCP2RC7.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\testTCP2RC7.dll
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\refint\testTCP2RC7.dll
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\testTCP2RC7.pdb
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\testTCP2RC7.genruntimeconfig.cache
+C:\Users\user\source\repos\testTCP2RC7\testTCP2RC7\obj\Debug\net7.0-windows\ref\testTCP2RC7.dll
