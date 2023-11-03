@@ -1,0 +1,47 @@
+'---------------------------------------------------
+'Fix communication TCP Modbus without Fieldbus Slave
+'---------------------------------------------------
+
+#include "global_variable.inc"
+Function main
+	Print "RObot standby"
+	Integer num
+	
+	OpenNet #201 As Server
+	num = ChkNet(201)
+	Print "Ready:", num
+	WaitNet #201
+	
+	Print "Connected"
+	num = ChkNet(201)
+	String status$
+	z = 100
+	x = 200
+	c = 300
+	v = 400
+	Do
+		'Print "connected & waiting Message from C#"
+		'Print "Status Buffer", num
+		num = ChkNet(201)
+		
+		If num > 0 Then
+			'Print " waiting"
+			Input #201, inData(0), inData(1)
+			Call syncData
+			Print #201, outData(0), ",", outData(1), ",", outData(2), ",", outData(3), ",", outData(4), ",", outData(5), ",", outData(6), ",", outData(7), ",", outData(8), ",", outData(9), ",", outData(10), ",", outData(11), ",", outData(12), ",", outData(13), ",", outData(14), ",", outData(15), ",", outData(16), ",", outData(17), ",", outData(18), ",", outData(19), ",", outData(20), ",", outData(21), ",", outData(22), ",", outData(23), ",", outData(24)
+			'Call parsingData
+			Print "Data1 : ", q
+			
+		Else
+			If num = -3 Then
+				Print "Status Connection", num
+			EndIf
+		EndIf
+	Loop
+	
+	
+	
+	CloseNet #201
+	
+Fend
+
